@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 2em;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.book-list .book {
+  border: 1px solid #ddd;
+  padding: 1em;
+  width: calc(33% - 2em);
+  box-sizing: border-box;
+}
+.book-list .book img {
+  max-width: 100%;
+}
+.book-list .book h2 {
+  font-size: 1.25em;
+  margin: 0.5em 0;
+}
+.book-list .book p {
+  font-size: 0.875em;
+  color: #555;
+}
+.book-list .book a {
+  color: #3498db;
+  text-decoration: none;
+}
+.book-list .book a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: yellowgreen;
+  border-top: 1px solid #ddd;
+  padding: 1em;
+  text-align: center;
+}
+footer a {
+  color: #3498db;
+  text-decoration: none;
+  margin: 0 0.5em;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=example.css.map */
